@@ -46,7 +46,9 @@ def smooth_move(current_x, current_y, width, height):
     screen_x = norm_x * SCREEN_W
     screen_y = norm_y * SCREEN_H
 
-    dist_moved = math.sqrt((screen_x - controller.prev_x)**2 +(screen_y - controller.prev_y)**2)
+    dist_moved = math.sqrt((screen_x - controller.prev_x)**2 +
+                           (screen_y - controller.prev_y)**2)
+
     if dist_moved > 80:
         adaptive_alpha = 0.8
     else:
