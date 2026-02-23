@@ -171,7 +171,7 @@ def main():
                         print("Action: Drag Released")
                     controller.is_pinching = False
 
-                # --- SCENARIO D: RIGHT CLICK (Middle Finger Up) ---
+                # --- SCENARIO D: RIGHT CLICK (Pinky Finger Up + All other Fisted) ---
                 pinky_tip = hand.landmark[20]
                 pinky_pip = hand.landmark[18]
                 index_tip = hand.landmark[8]
