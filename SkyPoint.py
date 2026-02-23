@@ -172,19 +172,22 @@ def main():
                     controller.is_pinching = False
 
                 # --- SCENARIO D: RIGHT CLICK (Middle Finger Up) ---
+                pinky_tip = hand.landmark[20]
+                pinky_pip = hand.landmark[18]
+                index_tip = hand.landmark[8]
                 middle_tip = hand.landmark[12]
-                middle_pip = hand.landmark[11] # PIP joint
+                ring_tip = hand.landmark[16]
                 
-                # If Middle Tip is higher (smaller Y) than PIP
-                if middle_tip.y < middle_pip.y:
-                     # Check if thumb is NOT pinching (so we don't right click while trying to left click)
-                     if pinch_dist >= PINCH_THRESHOLD:
-                         if current_time - controller.last_right_click_time > 1.0: # Longer cooldown for Right Click
-                             pyautogui.rightClick()
-                             controller.last_right_click_time = current_time # Ensure you define this in __init__
-                             cv2.putText(image, "RIGHT CLICK", (w//2 - 100, h//2), 
-                                         cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 0, 255), 4)
-                             print("Action: Right Click")
+                is_pinky_up = pinky_tip.y < pinky_pip.y
+                is_index_fisted = index_tip.y > hand.landmark[7].y
+                is_middle_fisted = middle_tip.y > hand.landmark[11].y
+                is_ring_fisted = ring_tip.y > hand.landmark[15].y
+
+                if is_pinky_up and is_index_fisted and is_middle_fisted and is_ring_fisted:
+                     if current_time - controller.last_right_click_time > 1.0:
+                         pyautogui.rightClick()
+                         controller.last_right_click_time = current_time
+                         print("Action: Right Click (Pinky Up + Fist)")
 
             else:
                 # Reset state if hand is lost
