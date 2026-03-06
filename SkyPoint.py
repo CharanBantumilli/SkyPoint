@@ -194,13 +194,6 @@ def main():
                 controller.is_pinching = False
                 controller.is_dragging = False
 
-            cv2.imshow("Advanced Hand Controller", image)
-            if cv2.waitKey(5) & 0xFF == ord('q'):
-                break
-
-    cap.release()
-    cv2.destroyAllWindows()
-
 if __name__ == "__main__":
     main()
 
