@@ -173,12 +173,5 @@ Developed by **Charan Bantumilli**
 GitHub:  
 https://github.com/CharanBantumilli
 
-# ⭐ Support
-
-If you found this project useful:
-
- Star the repository  
- Fork it  
- Share it with others  
 
 
