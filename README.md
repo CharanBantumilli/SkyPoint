@@ -170,8 +170,5 @@ This project is licensed under the **MIT License**.
 
 Developed by **Charan Bantumilli**
 
-GitHub:  
-https://github.com/CharanBantumilli
-
 
 
