@@ -84,18 +84,7 @@ This converts the **camera position of the index finger** into the **actual scre
 An **Exponential Moving Average (EMA)** smoothing algorithm is used to make cursor movement natural and reduce jitter.
 
 
-# 🛠 Tech Stack
-
-| Technology | Purpose |
-|-----------|--------|
-| Python | Core programming |
-| OpenCV | Webcam processing |
-| MediaPipe | Hand landmark detection |
-| PyAutoGUI | Mouse automation |
-| Math | Distance calculations |
-
-
-# 📦 Installation
+# Installation
 
 ### Clone the Repository
 
@@ -129,7 +118,7 @@ Your webcam will start and SkyPoint will begin detecting gestures.
 | Pinky Up + Closed Fingers | Right Click |
 
 
-# ⚙ Configuration
+# Configuration
 
 You can adjust gesture sensitivity in the source code.
 
