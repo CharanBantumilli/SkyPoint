@@ -14,7 +14,7 @@ Using **computer vision and real-time hand tracking**, SkyPoint detects hand ges
 This project demonstrates **touchless human–computer interaction (HCI)** using **Python, OpenCV, and MediaPipe**.
 
 
-## 🚧 Project Status
+## Project Status
 
 SkyPoint is currently in a **demo / beta stage**.  
 
@@ -23,7 +23,7 @@ This version focuses on demonstrating the **core concept of gesture-based mouse 
 The project will continue evolving as improvements and refinements are made over time.
 
 
-# 🚀 Features
+# Features
 
 ### Real-Time Hand Tracking
 Detects **21 hand landmarks** using MediaPipe for accurate gesture recognition.
@@ -59,7 +59,7 @@ The system displays:
 - Pinch distance indicator
 
 
-# 🧠 How It Works
+# How It Works
 
 SkyPoint processes webcam input through the following pipeline:
 
@@ -112,14 +112,14 @@ Or install from requirements file:
 pip install -r requirements.txt
 ```
 
-# ▶️ Run the Project
+# Run the Project
 ```
 python SkyPoint.py
 ```
 Your webcam will start and SkyPoint will begin detecting gestures.
 
 
-# 🎮 Gesture Controls
+# Gesture Controls
 
 | Gesture | Action |
 |------|------|
@@ -140,31 +140,6 @@ You can adjust gesture sensitivity in the source code.
 | DRAG THRESHOLD | Drag activation sensitivity |
 | CLICK COOLDOWN | Prevents rapid repeated clicks |
 
-
-# 📂 Project Structure
-```
-SkyPoint  
-│  
-├── skypoint.py  
-├── README.md  
-├── requirements.txt  
-```
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-Steps:
-
-1. Fork the repository  
-2. Create a new branch  
-3. Make your changes  
-4. Submit a pull request  
-
-
-# 📜 License
-
-This project is licensed under the **MIT License**.
 
 # 👨‍💻 Author
 
