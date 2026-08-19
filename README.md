@@ -5,7 +5,6 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
 [![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
 SkyPoint is a **gesture-controlled virtual mouse** that allows users to control their computer **without touching a physical mouse or trackpad**.
