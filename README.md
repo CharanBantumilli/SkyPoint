@@ -129,9 +129,6 @@ You can adjust gesture sensitivity in the source code.
 | DRAG THRESHOLD | Drag activation sensitivity |
 | CLICK COOLDOWN | Prevents rapid repeated clicks |
 
-
-# 👨‍💻 Author
-
 Developed by **Charan Bantumilli**
 
 
