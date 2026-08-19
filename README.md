@@ -1,10 +1,10 @@
 # 🖱️ SkyPoint
 ### Gesture-Based Virtual Mouse Using Computer Vision
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)
-![Status](https://img.shields.io/badge/Status-Active-success)
+[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)](https://opencv.org/)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange)](https://ai.google.dev/edge/mediapipe/solutions/guide)
+[![Status](https://img.shields.io/badge/Status-Active-success)](#)
 [![License](https://img.shields.io/badge/License-MIT-blue)](./LICENSE)
 
 SkyPoint is a **gesture-controlled virtual mouse** that allows users to control their computer **without touching a physical mouse or trackpad**.
